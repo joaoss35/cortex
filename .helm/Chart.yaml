@@ -1,0 +1,7 @@
+apiVersion: v2
+name: Cortex Helm Chart
+description: A helm chart to host our gaming web platform
+type: application
+version: 1.0.0
+maintainers:
+  - name: cortexlsis2@gmail.com

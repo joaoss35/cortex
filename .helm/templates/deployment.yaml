@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: online-reality
+  name: online-reality
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: online-reality
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: online-reality
+    spec:
+      containers:
+      - image: cortexlsis2/website:1.0
+        name: online-reality
+        ports:
+        - containerPort: 3000
+        resources: {}
+status: {}
