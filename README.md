@@ -9,6 +9,10 @@
 [OnlineReality.xyz](OnlineReality.xyz) is a game platform built with the premisse of Joining the Two Worlds.
 The Online Reality project started within the scope of the LSIS2 (Systems Labs II) class, a curricular unity of the [Systems Engineering](https://www.ipp.pt/education/courses/degree/isep/126) bachelor.
 
+### To be considered
+
+All game assets, under `src/game` have been removed due to Github 100MB file limit. As such, when building the project, do not forget to **ADD** the game back again.
+
 ## Introduction
 
 This project has been designed by taking advantage of the following main technologies:
