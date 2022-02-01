@@ -16,7 +16,7 @@ spec:
         app: online-reality
     spec:
       containers:
-      - image: cortexlsis2/website:1.2
+      - image: cortexlsis2/website:1.4
         name: online-reality
         ports:
         - containerPort: 3000
